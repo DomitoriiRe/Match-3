@@ -1,4 +1,5 @@
 Небольшая Match-3 с базовыми механиками и простой визуализацией. Сделано за ~14 часов неспешной разработки для примера кода.
 
 
-![T](https://github.com/user-attachments/assets/b70d94e8-f177-4471-8855-16321c483191)
+ 
+![TT](https://github.com/user-attachments/assets/d9fbe9a9-e43a-4f19-94a0-684c5b589312)
