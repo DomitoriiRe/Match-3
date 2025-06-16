@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f69f6d90ebf9ffa4abce9e86f6d0136a, type: 3}
+  m_Name: Data Full Fledged Figure
+  m_EditorClassIdentifier: 
+  _colorSpriteCollection: {fileID: 11400000, guid: b7c683bc26f0fa14b9850e97537fed41, type: 2}
+  _figureCollection: {fileID: 11400000, guid: ee235eecfe80e504a84422fc8e0a6305, type: 2}
+  _glassesCollection: {fileID: 11400000, guid: 4a85084735b111b44a517c8859d30e4c, type: 2}
