@@ -7,7 +7,7 @@ using Zenject;
 public class FigureGeneratorView : MonoBehaviour, IFigureGeneratorView
 {
     [SerializeField] private Transform _parentSpawn;
-    public   List<GameObject> _currentInstances = new();
+    private readonly List<GameObject> _currentInstances = new();
     public IReadOnlyList<GameObject> CurrentInstances => _currentInstances;
 
     private IDisposable _spawnSubscription;

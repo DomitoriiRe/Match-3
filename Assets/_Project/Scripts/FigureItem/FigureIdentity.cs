@@ -6,10 +6,8 @@ public class FigureIdentity
     public Sprite FrameColor;
     public Sprite Glasses; 
 
-    public static FigureIdentity FromGO(GameObject go)
-    {
-        var figureItem = go.GetComponent<FigureItem>();
-
+    public static FigureIdentity FromGO(FigureItem figureItem)
+    {  
         var figure = figureItem.EnumFigureType;
         var frame = figureItem.FrameSprite.sprite;
         var glasses = figureItem.GlassesSprite.sprite;

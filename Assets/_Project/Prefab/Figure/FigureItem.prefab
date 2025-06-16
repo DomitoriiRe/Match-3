@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5555062563374450633}
+  - component: {fileID: 3482283705397077565}
+  - component: {fileID: 4119592422631460}
   - component: {fileID: 8499797519273111185}
   - component: {fileID: 3021769729063103537}
-  - component: {fileID: 4119592422631460}
-  - component: {fileID: 3482283705397077565}
   m_Layer: 0
   m_Name: FigureItem
   m_TagString: Untagged
@@ -36,6 +36,34 @@ Transform:
   - {fileID: 7027002778869253683}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3482283705397077565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884897553141787354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861fd1411758ad240a7b8ac5ae7f7597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _figureItem: {fileID: 4119592422631460}
+--- !u!114 &4119592422631460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884897553141787354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ac71b73d0b9764b83245e175c50e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _figureSprite: {fileID: 3021769729063103537}
+  _frameSprite: {fileID: 6795738868961345837}
+  _glassesSprite: {fileID: 1624994652459072073}
 --- !u!50 &8499797519273111185
 Rigidbody2D:
   serializedVersion: 5
@@ -118,34 +146,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4119592422631460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1884897553141787354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7ac71b73d0b9764b83245e175c50e7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _figureSprite: {fileID: 3021769729063103537}
-  _frameSprite: {fileID: 6795738868961345837}
-  _glassesSprite: {fileID: 1624994652459072073}
---- !u!114 &3482283705397077565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1884897553141787354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 861fd1411758ad240a7b8ac5ae7f7597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _figureSlotPanelView: {fileID: 0}
 --- !u!1 &2087475261668870575
 GameObject:
   m_ObjectHideFlags: 0
